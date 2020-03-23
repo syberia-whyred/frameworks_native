@@ -126,10 +126,10 @@ cc_defaults {
             },
             uses_qcom_um_4_4_family: {
                 header_libs: [
-                    "//hardware/qcom/display-caf/msm8998:display_intf_headers",
+                    "//hardware/qcom/display:display_intf_headers",
                 ],
                 shared_libs: [
-                    "//hardware/qcom/display-caf/msm8998:libqdMetaData.system",
+                    "//hardware/qcom/display:libqdMetaData.system",
                 ],
             },
             uses_qcom_um_4_9_family: {
